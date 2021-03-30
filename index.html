@@ -6,20 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/favicon.webp" type="image/png">
     <title>Royal Hotel</title>
+    <meta name="author" content="mustafa sayed">
     <link rel="stylesheet" href="stylesheet/all.min.css">
+    <link rel="stylesheet" href="Linearicons/Web Font/style.css">
     <link rel="stylesheet" href="stylesheet/bootstrap.min.css">
     <link rel="stylesheet" href="plugins/package/dist/sweetalert2.min.css">
     <link rel="stylesheet" href="plugins/date/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" href="plugins/wow/css/libs/animate.css">
+    <link rel="stylesheet" href="plugins/jquery-nice-select-1.1.0/css/nice-select.css">
     <link rel="stylesheet" href="stylesheet/hover.css">
     <link rel="stylesheet" href="stylesheet/style.css">
     </head>
     <body>
 
+      <!-- <div class="preloader">
+        <h1>
+          Please Wait..
+        </h1>
+      </div> -->
+      <!-- start header -->
         <header class="head"> 
             <div class="container navcustom">
                 <nav class="navbar navbar-expand-lg row pt-3">
                     <a class="logo navbar-brand col-md-6" href="#">
-                        <img src="images/Logo.png" alt="Logo">
+                        <img class="wow rotateInDownLeft" data-wow-duration="2s" data-wow-delay="3s" src="images/Logo.png" alt="Logo">
                     </a>
                     <div class="collapse navbar-collapse col-md-6 upper" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
@@ -55,15 +65,17 @@
             </div>
             </div>
         </header>
+        <!-- end header -->
 
-        <section class="header">
+        <!-- start first section -->
+        <section class="header wow fadeInLeft" data-wow-delay="2s">
          <div class="lyr">
           <div class="container d-flex justify-content-center align-items-center content">
             <div class="text-center">
             <h6 class="upper">Away from monotonous life</h6>
             <h2>Relax Your Mind</h2>
             <p>If you are looking at blank cassettes on the web, you may be very confused at the <br> difference in price. You may see some for as low as <span class="main-color">$.17</span> each.</p>
-            <a href="#" class="upper btn theme-bot theme-bot-hover hvr-sweep-to-right">Get Started</a>
+            <a href="#" class="upper btn theme-bot theme-bot-hover hvr-sweep-to-right n-link">Get Started</a>
               </div>
               
              <div class="book">
@@ -72,47 +84,195 @@
                   <h2>Book<br> Your Room</h2>
                 </div>
                 <div class="col-md-9">
-                    <div class="row pt-1">
+                    <div class="row">
                       <div class="col-md-4">
-                        <div class="form-group">
-                          <input type="date" class="form-control">
+                        <div class="form-group box-calendar wow bounceIn"data-wow-duration="1s" data-wow-delay="3s">
+                          <input type="text" class="form-control datepic" placeholder="Arrival Date">
+                          <span ><i class="fas fa-calendar-week"></i></span>
                         </div>
-                        <div class="form-group">
-                          <input type="date" class="form-control">
+                        <div class="form-group box-calendar wow bounceIn" data-wow-duration="1s" data-wow-delay="4s"">
+                          <input type="text" class="form-control datepic" placeholder="Departure Date">
+                          <span ><i class="fas fa-calendar-week"></i></span>
                         </div>
                       </div>
                       <div class="col-md-4">
-                        <div class="form-group">
-                          <input type="text" class="form-control">
+                        <div class="form-group wow bounceIn" data-wow-duration="1s" data-wow-delay="5s"">
+                          <!-- <input type="text" class="form-control" placeholder="Adult"> -->
+                          <select class="wide">
+                            <option value="adult">Adult</option>
+                            <option value="old">Old</option>
+                            <option value="younger">Younger</option>
+                            <option value="potato">Potato</option>
+                          </select>
                         </div>
-                        <div class="form-group">
-                          <input type="text" class="form-control">
+                        <div class="form-group wow bounceIn" data-wow-duration="1s" data-wow-delay="6s"">
+                          <!-- <input type="text" class="form-control" placeholder="Child"> -->
+                          <select class="wide">
+                            <option value="child">Child</option>
+                            <option value="baby">Baby</option>
+                            <option value="child">Child</option>
+                          </select>
                         </div>
                       </div>
                       <div class="col-md-4">
-                        <div class="form-group">
-                          <input type="text" class="form-control">
+                        <div class="form-group wow bounceIn" data-wow-duration="1s" data-wow-delay="7s">
+                          <!-- <input type="text" class="form-control" placeholder="Child"> -->
+                          <select class="wide">
+                            <option value="none">Number Of Rooms</option>
+                            <option value="room-1">Room 01</option>
+                            <option value="room-2">Room 02</option>
+                            <option value="room-3">Room 03</option>
+                          </select>
                         </div>
-                        <div class="form-group">
-                          <input type="text" class="form-control">
-                        </div>
+                        <div class="form-group wow bounceInRight" data-wow-duration="1s" data-wow-delay="8s">
+                        <a href="#" class="upper btn theme-bot theme-bot-hover hvr-sweep-to-right book-nw n-link">Book Now</a>
+                      </div>
                       </div>
                     </div>
                 </div>
-
               </div>
              </div>
              </div>
          </div>
         </section>
+        <!-- end first section -->
 
+        <!-- start hotel section -->
+        <section>
+            <div class="row hotel-section wow fadeIn" data-wow-duration="2s" data-wow-offset="200">
+              <div class="col-md-12 text-center">
+                <h1>Hotel Accomodation</h1>
+                <p>We all live in an age that belongs to the young at heart. Life that is becoming extremely fast,</p>
+              </div>
+            </div>
+
+            <div class="container mb-9">
+            <div class="row">
+              <div class="col-md-3 text-center next wow bounceIn" data-wow-delay="1s" data-wow-duration="1s" data-wow-offset="200">
+                  <div class="hot-section">
+                    <img src="images/rooms/room1.jpg" class="hot-img-effect" alt="Room 1">
+                    <a class="upper btn theme-bot theme-bot-hover hvr-sweep-to-right n-link" href="#">Book Now</a>
+                  </div>
+                  <div class="bold">
+                  <a href="#" class="room-name n-link">Double Deluxe Room</a>
+                  <h5 class='money curn' data-ccy='EGP'>250</h5><small class="goodnight">/night</small>
+                </div>
+              </div>
+              <div class="col-md-3 text-center next wow bounceIn" data-wow-delay="2s" data-wow-duration="1s" data-wow-offset="200">
+                <div class="hot-section">
+                  <img src="images/rooms/room2.jpg" class="hot-img-effect" alt="Room 1">
+                  <a class="upper btn theme-bot theme-bot-hover hvr-sweep-to-right n-link" href="#">Book Now</a>
+                </div>
+                <div class="bold ">
+                <a href="#" class="room-name n-link">Single Deluxe Room</a>
+                <h5 class='money curn' data-ccy='EGP'>200</h5><small class="goodnight">/night</small>
+              </div>
+            </div>
+            <div class="col-md-3 text-center next wow bounceIn" data-wow-delay="3s" data-wow-duration="1s" data-wow-offset="200">
+              <div class="hot-section">
+                <img src="images/rooms/room3.jpg" class="hot-img-effect" alt="Room 1">
+                <a class="upper btn theme-bot theme-bot-hover hvr-sweep-to-right n-link" href="#">Book Now</a>
+              </div>
+              <div class="bold ">
+              <a href="#" class="room-name n-link">Honeymoon Suit</a>
+              <h5 class='money curn' data-ccy='EGP'>750</h5><small class="goodnight">/night</small>
+            </div>
+          </div>
+          <div class="col-md-3 text-center next wow bounceIn" data-wow-delay="4s" data-wow-duration="1s" data-wow-offset="200">
+            <div class="hot-section">
+              <img src="images/rooms/room4.jpg" class="hot-img-effect" alt="Room 1">
+              <a class="upper btn theme-bot theme-bot-hover hvr-sweep-to-right n-link" href="#">Book Now</a>
+            </div>
+            <div class="bold ">
+            <a href="#" class="room-name n-link">Economy Double</a>
+            <h5 class='money curn' data-ccy='EGP'>200</h5><small class="goodnight">/night</small>
+          </div>
+        </div>
+            </div>
+          </div>
+        </section>
+        <!-- end hotel section -->
+
+        <!-- start facilities -->
         
+        <section class="facilities-section">
+          <div class="lyr-2">
+            <div class="container">
+              <div class="row mt-9 mb-5">
+                <div class="col-md-12 facilities-content text-center">
+                  <h2>Royal Facilities</h2>
+                  <p>Who are in extremely love with eco friendly system.</p>
+                 
+                </div>
+              </div>
+              <div class="row ">
+                <div class="col-md-4 facility">
+                  <h4>
+                    <span class="lnr lnr-dinner"></span>Restaurant  
+                  </h4>
+                  <p>
+                    Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+                  </p>
+                </div>
+                <div class="col-md-4 facility">
+                  <h4>
+                    <span class="lnr lnr-bicycle"></span>Sports CLub
+
+                  </h4>
+                  <p>
+                    Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+                  </p>
+                </div>
+                <div class="col-md-4 facility">
+                  <h4>
+                    <span class="lnr lnr-shirt"></span>Swimming Pool
+                  </h4>
+                  <p>
+                    Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+                  </p>
+                </div>
+                <div class="col-md-4 facility">
+                  <h4>
+                    <span class="lnr lnr-car"></span>Rent a Car
+                  </h4>
+                  <p>
+                    Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+                  </p>
+                </div>
+                <div class="col-md-4 facility">
+                  <h4>
+                    <span class="lnr lnr-construction"></span>Gymnesium
+                  </h4>
+                  <p>
+                    Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+                  </p>
+                </div>
+                <div class="col-md-4 facility">
+                  <h4>
+                    <span class="lnr lnr-coffee-cup"></span>Bar
+                  </h4>
+                  <p>
+                    Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- end facilities -->
     <script src="javascript/jquery-3.6.0.min.js"></script>
     <script src="javascript/bootstrap.bundle.min.js"></script>
-    <script src="plugins/date/bootstrap-datetimepicker.min.js"></script>
-    <script type="text/javascript">
-      $(".form_datetime").datetimepicker({format: 'yyyy-mm-dd hh:ii'});
-  </script>       
+    <script src="plugins/currencyFormatter.js-master/dist/currencyFormatter.min.js"></script>
+    <script>
+      OSREC.CurrencyFormatter.formatEach('.money');
+    </script>
+    <script src="plugins/jquery-nice-select-1.1.0/js/jquery.nice-select.min.js"></script>
+    <script src="plugins/wow/dist/wow.js"></script>
+    <script>
+      // new WOW().init();
+    </script>
+    <script src="plugins/date/bootstrap-datetimepicker.min.js"></script>    
     <script src="plugins/package/dist/sweetalert2.all.min.js"></script>
     <script src="javascript/jscript.js"></script>
     </body>
