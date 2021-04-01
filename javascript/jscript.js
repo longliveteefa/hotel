@@ -22,13 +22,6 @@ var egyptcur = "جنيه مصري";
 document.getElementById("wos").innerHTML = egyptcur;
 
 
-
-function parallaxEffect() {
-  $('.bg-parallax').parallax();
-}
-parallaxEffect();
-
-
 $('select').niceSelect();
 $('#datetimepicker11,#datetimepicker1').datetimepicker({
     daysOfWeekDisabled: [0, 6]
