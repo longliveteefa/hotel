@@ -1,0 +1,85 @@
+@media(max-width:576px){
+    .head{
+        width: 100%
+    }
+}
+@media(max-width:576px){
+    .navcustom{
+        height:60px
+    }
+}
+@media(max-width:576px){
+    .header .container h6{
+        margin-bottom: 20px;
+        width: 500px
+    }
+}
+@media(max-width:576px){
+    .header .container .cot h2{
+        font-size: 55px;
+        margin-left: 12px
+    }
+}
+@media(max-width:576px){
+    .header .container .cot{
+        margin-bottom: 100px
+    }
+}
+@media(max-width:576px){
+    .book{
+        padding: 1px
+    }
+}
+@media(max-width:576px){
+    .hotel-section .h1{
+        padding: 1px
+    }
+}
+@media(max-width:576px){
+    .tyo-12{
+        width: 70%;
+        height: 70%;
+        margin: auto
+    }
+}
+@media(max-width:576px){
+    .facility{
+        padding: 12px 12px 12px;
+    }
+}
+@media(max-width:576px){
+    .facilities-section{
+        height: 1300px
+    }
+}
+@media(max-width:576px){
+    .about-us img{
+        margin-top: 60px;
+        height: 300px;
+        width: 100%;
+        position: relative;
+        right: 40px
+    }
+}
+
+@media(max-width:576px){
+    .testimonial{
+        height: 850px
+    }
+}
+@media(max-width:576px){
+    .single-footer{
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:576px){
+    .bmail{
+        position: relative;
+        right: -420px;
+    }
+}
+@media(max-width:576px){
+    .feed li{
+        margin: 5.6px
+    }
+}

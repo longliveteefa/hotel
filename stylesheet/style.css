@@ -138,7 +138,7 @@ a{
     padding: 5px 30px
 }
 .theme-bot:before {
-    background: #f8b100;
+    background: #f8b100
   }
   
   .theme-bot:hover {
@@ -250,7 +250,9 @@ a{
     justify-content: center;
     align-items: center
  }
-
+.bg-white2{
+    background: #fff;
+}
 .preloader h1{
     position: relative;
     top: 90px;
@@ -536,7 +538,7 @@ a{
 .navbar_fixed {
     position: fixed;
     width: 100%;
-    left: 13px;
+    left: 0px;
     background: #fff;
     top: 0;
     top: -50px;
@@ -564,6 +566,7 @@ a{
      left: 60px;
      bottom: 5px;
   }
+
   .navbar_fixed .logo{
     position: relative;
     left: 112px;
@@ -641,6 +644,7 @@ a{
     font-weight: 400
 }
 .img-blog{
+    
     width: 100%;
     transition: all .8s ease-in-out;
     -webkit-transition: all .8s ease-in-out;
@@ -740,7 +744,12 @@ a{
     margin-right: -5px
 }
 .feed li {
-    margin: 5px
+    transition: all 1s ease-in;
+    margin: 5px;
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -ms-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in
 }
 .endfooter{
     padding-top: 46px;

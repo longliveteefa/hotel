@@ -19,53 +19,59 @@
     <link rel="stylesheet" href="plugins/jquery-nice-select-1.1.0/css/nice-select.css">
     <link rel="stylesheet" href="stylesheet/hover.css">
     <link rel="stylesheet" href="stylesheet/style.css">
+    <link rel="stylesheet" href="stylesheet/responsive.css">
     </head>
     <body>
 
-      <div class="preloader">
+      <!-- <div class="preloader">
         <h1>
           Please Wait..
         </h1>
-      </div>
+      </div> -->
       <!-- start header -->
         <header class="head"> 
             <div class="container navcustom">
-                <nav class="navbar navbar-expand-lg row pt-3" id="header">
-                    <a class="logo navbar-brand col-md-6" href="#">
-                        <img class="wow rotateInDownLeft" data-wow-duration="2s" data-wow-delay="3s" src="images/Logo.png" alt="Logo">
-                    </a>
-                    <div class="collapse navbar-collapse col-md-6 upper" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto">
-                          <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Accomodation</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Gallery</a>
-                          </li>
-                          <li class="nav-item dropdown">
-                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Blog
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <li><a class="dropdown-item" href="#">Blog</a></li>
-                              <li><a class="dropdown-item" href="#">Blog Details</a></li>
-                            </ul>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Elemests</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                          </li>
+              <nav class="navbar navbar-expand-lg navbar-light bg-white" id="header">
+                <div class="container-fluid">
+                  <a class="logo navbar-brand col-md-6" href="#">
+                    <img class="wow rotateInDownLeft" data-wow-duration="2s" data-wow-delay="3s" src="images/Logo.png" alt="Logo">
+                </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse col-md-6 upper" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#about-us">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Accomodation</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Gallery</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Blog
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Blog</a></li>
+                          <li><a class="dropdown-item" href="#">Blog Details</a></li>
                         </ul>
-                </nav>
-            </div>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Elemests</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
             </div>
         </header>
         <!-- end header -->
@@ -76,9 +82,11 @@
           <div class="container d-flex justify-content-center align-items-center content">
             <div class="text-center">
             <h6 class="upper">Away from monotonous life</h6>
-            <h2>Relax Your Mind</h2>
-            <p>If you are looking at blank cassettes on the web, you may be very confused at the <br> difference in price. You may see some for as low as <span class="main-color">$.17</span> each.</p>
-            <a href="#" class="upper btn theme-bot theme-bot-hover hvr-sweep-to-right n-link">Get Started</a>
+            <div class="cot">
+              <h2 >Relax Your Mind</h2>
+              <p>If you are looking at blank cassettes on the web, you may be very confused at the <br> difference in price. You may see some for as low as <span class="main-color">$.17</span> each.</p>
+              <a href="#" class="upper btn theme-bot theme-bot-hover hvr-sweep-to-right n-link">Get Started</a>
+            </div>
               </div>
               
              <div class="book">
@@ -148,12 +156,13 @@
                 <p>We all live in an age that belongs to the young at heart. Life that is becoming extremely fast,</p>
               </div>
             </div>
+            <div class="tyo-12">
             <div class="container mb-9">
             <div class="row">
               <div class="col-md-3 text-center next wow bounceIn" data-wow-delay="1s" data-wow-duration="1s" data-wow-offset="200">
                   <div class="hot-section">
                     <img src="images/rooms/room1.jpg" class="hot-img-effect" alt="Room 1">
-                    <a class="upper btn theme-bot theme-bot-hover hvr-sweep-to-right n-link" href="#">Book Now</a>
+                    <a class="upper btn theme-bot theme-bot-hover hvr-sweep-to-right n-link bt-99" href="#">Book Now</a>
                   </div>
                   <div class="bold">
                   <a href="#" class="room-name n-link">Double Deluxe Room</a>
@@ -190,6 +199,7 @@
             <h5 class='money curn' data-ccy='EGP'>200</h5><small class="goodnight">/night</small>
           </div>
         </div>
+         </div>
             </div>
           </div>
         </section>
@@ -204,9 +214,9 @@
                 <div class="col-md-12 facilities-content text-center">
                   <h2>Royal Facilities</h2>
                   <p>Who are in extremely love with eco friendly system.</p>
-                 
                 </div>
               </div>
+              <div class="tb-12">
               <div class="row">
                 <div class="col-md-4 wow bounceIn" data-wow-duration="1s" data-wow-offset="200">
                   <div class="facility">
@@ -271,13 +281,14 @@
                 </div>
               </div>
             </div>
+            </div>
           </div>
         </section>
         <!-- end facilities -->
 
         <!-- start about us -->
 
-        <section class="about-us section to-cot">
+        <section class="about-us section to-cot" id="about-us">
           <div class="container">
             <div class="row">
               <div class="col-md-6 d-flex align-items-center">
@@ -301,7 +312,7 @@
             
             <div class="col-md-6">
               <div class="img-fluid wow bounceIn" data-wow-delay="3s" data-wow-duration="1s" data-wow-offset="20">
-              <img src="images/about_bg.jpg" alt="About-us">
+              <img class="rounded" src="images/about_bg.jpg" alt="About-us">
             </div>
             </div>
           </div>
@@ -528,14 +539,14 @@
                   <div class="single-footer feed">
                     <h6 class="footer-title">InstaFeed</h6>
                     <ul class="lista feed d-flex flex-wrap">
-                      <li><img src="images/pepole/Image-01.jpg" alt=""></li>
-                      <li><img src="images/pepole/Image-02.jpg" alt=""></li>
-                      <li><img src="images/pepole/Image-03.jpg" alt=""></li>
-                      <li><img src="images/pepole/Image-04.jpg" alt=""></li>
-                      <li><img src="images/pepole/Image-05.jpg" alt=""></li>
-                      <li><img src="images/pepole/Image-06.jpg" alt=""></li>
-                      <li><img src="images/pepole/Image-07.jpg" alt=""></li>
-                      <li><img src="images/pepole/Image-08.jpg" alt=""></li>
+                      <li><img class="rounded" src="images/pepole/Image-01.jpg" alt=""></li>
+                      <li><img class="rounded" src="images/pepole/Image-02.jpg" alt=""></li>
+                      <li><img class="rounded" src="images/pepole/Image-03.jpg" alt=""></li>
+                      <li><img class="rounded" src="images/pepole/Image-04.jpg" alt=""></li>
+                      <li><img class="rounded" src="images/pepole/Image-05.jpg" alt=""></li>
+                      <li><img class="rounded" src="images/pepole/Image-06.jpg" alt=""></li>
+                      <li><img class="rounded" src="images/pepole/Image-07.jpg" alt=""></li>
+                      <li><img class="rounded" src="images/pepole/Image-08.jpg" alt=""></li>
                     </ul>
                   </div>
                 </div>
@@ -545,7 +556,7 @@
                 <div class="col-lg-8 col-sm-12 text-footer m-0">
                   <p>
                     Copyrights 	&copy; <span id="year"></span> All rights reserved 
-                    <a class="upper" href="longliveteefa.online" target="_blank">longliveteefa</a> 
+                    <a class="upper" href="http://longliveteefa.online" target="_blank">longliveteefa</a> 
                   </p>
                 </div>
                 <div class="col-lg-4 col-sm-12 social-footer">
@@ -567,7 +578,7 @@
     <script src="plugins/jquery-nice-select-1.1.0/js/jquery.nice-select.min.js"></script>
     <script src="plugins/wow/dist/wow.js"></script>
     <script>
-      new WOW().init();
+      // new WOW().init();
     </script>
     <script src="plugins/date/bootstrap-datetimepicker.min.js"></script>    
     <script src="plugins/package/dist/sweetalert2.all.min.js"></script>
@@ -579,6 +590,18 @@
           loop:true,
           autoplay:true,
          autoplayTimeout:5000,
+         responsiveClass:true,
+         responsive:{
+           0:{
+             items:1,
+             nav:true
+           },
+           1000:{
+             items:2,
+             nav:true,
+             loop:true
+           }
+         }
       });
      });
       </script>
